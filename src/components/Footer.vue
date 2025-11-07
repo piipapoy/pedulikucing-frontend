@@ -42,4 +42,19 @@ export default {
   height: 25px;
   object-fit: contain;
 }
+
+/* --- MEDIA QUERY UNTUK MOBILE/TABLET --- */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 1.5rem; 
+        padding: 2rem 1rem; 
+        align-items: flex-start;
+    }
+    
+    .footer-item {
+        justify-content: flex-start; 
+        width: 100%;
+    }
+}
 </style>
