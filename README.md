@@ -78,3 +78,21 @@ npm install
 
 # ATAU jika Anda menggunakan Yarn
 # yarn install
+```
+
+#### 3. Jalankan Server Pengembangan
+
+Setelah instalasi selesai, jalankan aplikasi di server pengembangan lokal:
+
+```bash
+# Menggunakan npm
+npm run dev
+
+# ATAU jika Anda menggunakan Yarn
+# yarn dev
+```
+
+#### 4. Akses Aplikasi
+
+Server akan menampilkan URL lokal di terminal. Buka Browser Anda dan navigasi ke alamat tersebut.
+Biasanya, alamat lokal adalah: http://localhost:5173/
